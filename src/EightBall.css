@@ -1,0 +1,26 @@
+.EightBall {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #678;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  margin: 0 auto;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.EightBall-btn {
+  background-color: green;
+  color: azure;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
