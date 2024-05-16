@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import EightBall from "./EightBall";
+import Boxes from "./Boxes";
 import "./App.css";
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <EightBall answers={answers} />
+      <Boxes />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
